@@ -397,4 +397,61 @@ if uploaded_file and job_description:
 
                 with st.expander("View Job Description"):
                     st.write(job_description)
-        
+# =========================
+# FOOTER + SOCIAL LINKS
+# =========================
+
+st.markdown("---")
+
+st.markdown(
+    """
+    <div style='text-align:center; padding:6px 0 12px 0;'>
+
+    <h4 style='
+        color:#7B2333;
+        margin-bottom:1px;
+        font-size:18px;
+        font-weight:700;
+    '>
+    Built by Shivangi Singh
+    </h4>
+
+    <p style='
+        color:#7B2333;
+        font-size:14px;
+        margin-bottom:10px;
+    '>
+    AI-powered career guidance through resume and job description analysis.
+    </p>
+
+    <a href="https://github.com/Shivangi808" target="_blank"
+    style="
+    background:#7B2333;
+    color:#F5EFE6;
+    padding:7px 14px;
+    border-radius:10px;
+    text-decoration:none;
+    margin-right:6px;
+    font-weight:600;
+    font-size:14px;
+    ">
+    GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/shivangi-singh-b94333368/" target="_blank"
+    style="
+    background:#1F2230;
+    color:#F5EFE6;
+    padding:7px 14px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:600;
+    font-size:14px;
+    ">
+    LinkedIn
+    </a>
+
+    </div>
+    """,
+    unsafe_allow_html=True
+)
