@@ -4,7 +4,7 @@ AI Career Copilot is an AI-powered resume and job description analyzer built usi
 
 ## Live Demo
 
-Add your deployed Streamlit link here.
+https://ai-career-copilot-ko2dcnmf5dyx4qgtkhde7g.streamlit.app/
 
 ## Features
 
